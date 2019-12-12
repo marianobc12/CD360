@@ -27,7 +27,9 @@
                   <span class="fas fa-user iconouser"></span>
                   <br>
                   <label style="margin-top:10px;"><span style="color:#112A7A; font-size:26px;">Contrase&ntilde;a</span></label><br>
-                  <input type="password" style="font-size:20px;" placeholder="Ingresar contrase&ntilde;a..."><br>
+                  <input type="password" style="font-size:20px;" placeholder="Ingresar contrase&ntilde;a...">
+                  <span class="fas fa-lock iconopass"></span>
+                  <br>
                   <input type="submit" value="ENTRAR" class="submitt"><br>
                   <div style="margin-top:15px;">
                     <span style="color:#606060; font-size:20px; ">Recuperar contraseña <a href="">aqu&iacute;</a></span><br>

@@ -25,6 +25,7 @@ input[type=password] {
     border: none;
     border-bottom: 2px solid #B7B7B7;
     width:100%;
+    padding-left:30px;
   }
   .submitt{
     color:white;
@@ -84,6 +85,16 @@ a:active {
 }
 
 .iconouser{
+  float: left;
+  margin-left: 4px;
+  margin-top: -28px;
+  position: relative;
+  z-index: 2;
+  color: #A9A9A9;
+  font-size:22px;
+}
+
+.iconopass{
   float: left;
   margin-left: 4px;
   margin-top: -28px;
