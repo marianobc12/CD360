@@ -26,7 +26,8 @@
                   <input type="text" class="form-usuar" placeholder="Ingresar usuario..."><br>
                   <label style="margin-top:10px;"><span style="color:#112A7A; font-size:30px;">Contrase&ntilde;a</span></label><br>
                   <input type="password" placeholder="Ingresar contrase&ntilde;a..."><br>
-                  <input type="submit" value="ENTRAR" class="submitt">
+                  <input type="submit" value="ENTRAR" class="submitt"><br>
+                  <span style="color:#B7B7B7; font-size:30px;">Recuperar contraseña <a href="">aqu&iacute;</a></span>
                 </div>
               </div>
           </form>
