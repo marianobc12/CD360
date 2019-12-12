@@ -12,8 +12,8 @@
 <body style="background: url('img/fondo1.jpg') no-repeat center center fixed; background-size:cover; width:100%; height:100%">
   <div class="container-fluid" style="text-align:center;">
     <div class="row">
-      <div class="col-sm-5 offset-sm-1">
-        <div style="height: 80%; width:80%;background-color:white; margin-top:20%;border-radius:10px;">
+      <div class="col-sm-5 col-12 offset-sm-1" style="margin:0px;padding:0px;">
+        <div style="height: 80%; width:80%;background-color:white; margin-left:5%; margin-top:20%;border-radius:10px;">
           <div style="text-align:center;">
              <img src="img/logo.png" class="logo">
           </div>
@@ -26,7 +26,7 @@
                   <input type="text" class="form-usuar" placeholder="Ingresar usuario..."><br>
                   <label style="margin-top:10px;"><span style="color:#112A7A; font-size:30px;">Contrase&ntilde;a</span></label><br>
                   <input type="password" placeholder="Ingresar contrase&ntilde;a..."><br>
-                  <input type="submit" value="ENTRAR" style="color:white; font-size:22px; margin-top:25px; width:100%; background-image:linear-gradient(to bottom, #0099FF , #004D80);">
+                  <input type="submit" value="ENTRAR" class="submitt">
                 </div>
               </div>
           </form>

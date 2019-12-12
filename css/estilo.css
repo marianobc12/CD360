@@ -19,3 +19,11 @@ input[type=password] {
     border-bottom: 2px solid #B7B7B7;
     width:100%;
   }
+  .submitt{
+    color:white;
+    font-size:22px;
+    margin-top:25px;
+    width:100%; 
+    background-image:linear-gradient(to bottom, #0099FF , #004D80); 
+    border:0px;
+  }
