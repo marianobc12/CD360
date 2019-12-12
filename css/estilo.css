@@ -1,0 +1,21 @@
+.form-group{
+text-align:left;
+}
+.form-group .label{
+    margin-top:20px;
+}
+.logo{
+    width:150px;
+    height:150px;
+    margin-top:-75px;
+}
+input[type=text] {
+    border: none;
+    border-bottom: 2px solid #B7B7B7;
+    width:100%;
+  }
+input[type=password] {
+    border: none;
+    border-bottom: 2px solid #B7B7B7;
+    width:100%;
+  }
