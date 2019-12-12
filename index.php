@@ -27,10 +27,15 @@
                   <label style="margin-top:10px;"><span style="color:#112A7A; font-size:30px;">Contrase&ntilde;a</span></label><br>
                   <input type="password" placeholder="Ingresar contrase&ntilde;a..."><br>
                   <input type="submit" value="ENTRAR" class="submitt"><br>
-                  <span style="color:#B7B7B7; font-size:30px;">Recuperar contraseña <a href="">aqu&iacute;</a></span>
+                  <span style="color:#B7B7B7; font-size:30px;">Recuperar contraseña <a href="">aqu&iacute;</a></span><br>
+                  <span style="color:#B7B7B7; font-size:30px;">Crear cuenta <a href="">aqu&iacute;</a></span>
                 </div>
               </div>
           </form>
+          <hr style="border-top: 1px solid #B7B7B7; width:95%; border-radius:5px; margin-top:-20px;">
+          <div style="padding-bottom:10px; margin-top:-10px;">
+          <span style="color:#B7B7B7; font-size:20px;">©2019 Create Design 360</span>
+          </div>
         </div>
       </div>  
     </div>
