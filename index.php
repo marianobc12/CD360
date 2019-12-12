@@ -25,7 +25,8 @@
                   <label><span style="color:#112A7A; font-size:30px;">Usuario</span></label><br>
                   <input type="text" class="form-usuar" placeholder="Ingresar usuario..."><br>
                   <label style="margin-top:10px;"><span style="color:#112A7A; font-size:30px;">Contrase&ntilde;a</span></label><br>
-                  <input type="password" placeholder="Ingresar contrase&ntilde;a...">
+                  <input type="password" placeholder="Ingresar contrase&ntilde;a..."><br>
+                  <input type="submit" value="ENTRAR" style="color:white; font-size:22px; margin-top:25px; width:100%; background-image:linear-gradient(to bottom, #0099FF , #004D80);">
                 </div>
               </div>
           </form>
