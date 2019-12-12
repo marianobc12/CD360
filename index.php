@@ -15,7 +15,7 @@
       <div class="col-sm-5 col-12 offset-sm-1" style="margin:0px;padding:0px;">
         <div class="rectanguloform">
           <div style="text-align:center;">
-             <img src="img/logo.png" class="logo">
+             <img src="img/logof.png" class="logo">
           </div>
           <hr style="border-top: 1px solid #B7B7B7; width:95%; border-radius:5px;">
           <form class="col-sm-12">
