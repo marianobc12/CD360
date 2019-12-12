@@ -24,8 +24,8 @@
                 <div class="form-group col-sm-10 col-sm-offset-1">
                   <label><span style="color:#112A7A; font-size:30px;">Usuario</span></label><br>
                   <input type="text" class="form-usuar" placeholder="Ingresar usuario..."><br>
-                  <label><span style="color:#112A7A; font-size:30px;">Contrase&ntilde;a</span></label><br>
-                  <input type="password" style="padding-top:10px;" placeholder="Ingresar contrase&ntilde;a...">
+                  <label style="margin-top:10px;"><span style="color:#112A7A; font-size:30px;">Contrase&ntilde;a</span></label><br>
+                  <input type="password" placeholder="Ingresar contrase&ntilde;a...">
                 </div>
               </div>
           </form>
