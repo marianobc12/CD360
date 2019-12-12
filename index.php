@@ -19,15 +19,17 @@
           </div>
           <hr style="border-top: 1px solid #B7B7B7; width:95%; border-radius:5px;">
           <form class="col-sm-12">
-            <span style="color:#112A7A; font-size:30px;">Iniciar Sesi&oacute;n</span>
-              <div class="row justify-content-sm-center">
+            <span style="color:#112A7A; font-size:26px;">INICIAR SESI&Oacute;N</span>
+              <div class="row justify-content-sm-center" style="margin-top:10px;">
                 <div class="form-group col-sm-10 col-sm-offset-1">
-                  <label><span style="color:#112A7A; font-size:30px;">Usuario</span></label><br>
-                  <input type="text" style="font-size:20px;" placeholder="Ingresar usuario..."><br>
-                  <label style="margin-top:10px;"><span style="color:#112A7A; font-size:30px;">Contrase&ntilde;a</span></label><br>
+                  <label><span style="color:#112A7A; font-size:26px;">Usuario</span></label><br>
+                  <input type="text" style="font-size:20px;" placeholder="Ingresar usuario...">
+                  <span class="fas fa-user iconouser"></span>
+                  <br>
+                  <label style="margin-top:10px;"><span style="color:#112A7A; font-size:26px;">Contrase&ntilde;a</span></label><br>
                   <input type="password" style="font-size:20px;" placeholder="Ingresar contrase&ntilde;a..."><br>
                   <input type="submit" value="ENTRAR" class="submitt"><br>
-                  <div style="margin-top:10px;">
+                  <div style="margin-top:15px;">
                     <span style="color:#606060; font-size:20px; ">Recuperar contraseña <a href="">aqu&iacute;</a></span><br>
                     <span style="color:#606060; font-size:20px;">Crear cuenta <a href="">aqu&iacute;</a></span>
                   </div> 
