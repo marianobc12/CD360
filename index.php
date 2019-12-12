@@ -13,7 +13,7 @@
   <div class="container-fluid" style="text-align:center;">
     <div class="row">
       <div class="col-sm-5 col-12 offset-sm-1" style="margin:0px;padding:0px;">
-        <div style="height: 80%; width:80%;background-color:white; margin-left:5%; margin-top:20%;border-radius:10px;">
+        <div class="rectanguloform">
           <div style="text-align:center;">
              <img src="img/logo.png" class="logo">
           </div>
