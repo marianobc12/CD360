@@ -9,8 +9,11 @@
     <link rel="stylesheet" href="css/estilo.css">
     <title>Inicio</title>
 </head>
-<body>
-    
+<body style="background: url('img/fondo1.jpg') no-repeat center center fixed; background-size:cover; width:100%; height:100%">
+<div class="container">
+<div class="row"></div>
+<div class="col-md-6"></div>
+</div>    
 
     <script src="js/jquery-3.4.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
