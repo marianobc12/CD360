@@ -12,7 +12,7 @@
 <body style="background: url('img/fondo1.jpg') no-repeat center center fixed; background-size:cover; width:100%; height:100%">
   <div class="container-fluid" style="text-align:center;">
     <div class="row">
-      <div class="col-sm-7 col-lg-5 col-12 offset-lg-1 offset-sm-1" style="margin:0px;padding:0px;">
+      <div class="col-sm-8 col-xl-5 col-lg-6 col-12 offset-lg-1 offset-sm-1 offset-xl-1" style="margin:0px;padding:0px;">
         <div class="rectanguloform">
           <div style="text-align:center;">
              <img src="img/logof.png" class="logo">
