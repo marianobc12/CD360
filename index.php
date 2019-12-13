@@ -13,7 +13,7 @@
   <div class="container-fluid" style="text-align:center;">
     <div class="row">
       <div class="col-sm-8 col-xl-5 col-lg-6 col-12 offset-lg-1 offset-sm-1 offset-xl-1" style="margin:0px;padding:0px;">
-        <div class="rectanguloform">
+        <div class="rectanguloform animated fadeInLeft " style="box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);">
           <div style="text-align:center;">
              <img src="img/logof.png" class="logo">
           </div>
@@ -22,18 +22,18 @@
             <span style="color:#112A7A; font-size:26px;">INICIAR SESIÓN</span>
               <div class="row justify-content-sm-center" style="margin-top:10px;">
                 <div class="form-group col-sm-10 col-sm-offset-1">
-                  <label><span style="color:#112A7A; font-size:26px;">Usuario</span></label><br>
-                  <input type="text" style="font-size:20px;" placeholder="Ingresar usuario...">
+                  <label><span style="color:#112A7A; font-size:20px;">Usuario</span></label><br>
+                  <input class="form-control" type="text" style="font-size:16px;" placeholder="Ingresar usuario...">
                   <span class="fas fa-user iconouser"></span>
                   <br>
-                  <label style="margin-top:10px;"><span style="color:#112A7A; font-size:26px;">Contraseña</span></label><br>
-                  <input type="password" style="font-size:20px;" placeholder="Ingresar contraseña...">
+                  <label style="margin-top:10px;"><span style="color:#112A7A; font-size:20px;">Contraseña</span></label><br>
+                  <input class="form-control" type="password" style="font-size:16px;" placeholder="Ingresar contraseña...">
                   <span class="fas fa-lock iconopass"></span>
                   <br>
-                  <input type="submit" value="ENTRAR" class="submitt"><br>
+                  <button type="submit" class="submitt btn btn-lg">ENTRAR</button><br>
                   <div style="margin-top:15px;">
                     <span style="color:#606060; font-size:20px; ">Recuperar contraseña <a href="">aquí</a></span><br>
-                    <span style="color:#606060; font-size:20px;">Crear cuenta <a href="">aquí</a></span>
+                   <!-- <span style="color:#606060; font-size:20px;">Crear cuenta <a href="">aquí</a></span> -->
                   </div> 
                 </div>
               </div>
