@@ -1,0 +1,105 @@
+@font-face {
+  font-family: montserrat;
+  src: url(../webfonts/Montserrat-Regular.woff);
+}
+
+
+.form-group{
+text-align:left;
+}
+.form-group .label{
+    margin-top:20px;
+}
+.logo{
+    width:330px;
+    height:230px;
+    margin-top:-75px;
+}
+input[type=text] {
+    border: none;
+    border-bottom: 2px solid #B7B7B7;
+    width:100%;
+    padding-left:30px;
+  }
+input[type=password] {
+    border: none;
+    border-bottom: 2px solid #B7B7B7;
+    width:100%;
+    padding-left:30px;
+  }
+  .submitt{
+    color:white;
+    font-size:22px;
+    margin-top:25px;
+    width:100%; 
+    background-image:linear-gradient(to bottom, #0099FF , #004D80); 
+    border:0px;
+  }
+
+@media only screen and (max-width: 576px) {
+.rectanguloform{
+  font-family: montserrat;
+  height: 80%; 
+  width:90%;
+  background-color:white; 
+  margin-left:5%; 
+  margin-top:20%;
+  border-radius:50px;
+}
+
+}
+@media only screen and (min-width: 577px) {
+.rectanguloform{
+  font-family: montserrat;
+  height: 80%; 
+  width:80%;
+  background-color:white; 
+  margin-left:10%; 
+  margin-top:20%;
+  border-radius:50px;
+}
+
+}
+
+a:link {
+  color:#112A7A;
+  text-decoration:none;
+}
+
+/* visited link */
+a:visited {
+  color:#112A7A;
+  text-decoration:none;
+}
+
+/* mouse over link */
+a:hover {
+  color:rgb(6, 0, 90);
+  text-decoration:none;
+}
+
+/* selected link */
+a:active {
+  color:#112A7A;
+  text-decoration:none;
+}
+
+.iconouser{
+  float: left;
+  margin-left: 4px;
+  margin-top: -28px;
+  position: relative;
+  z-index: 2;
+  color: #A9A9A9;
+  font-size:22px;
+}
+
+.iconopass{
+  float: left;
+  margin-left: 4px;
+  margin-top: -28px;
+  position: relative;
+  z-index: 2;
+  color: #A9A9A9;
+  font-size:22px;
+}
