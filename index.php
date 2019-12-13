@@ -33,7 +33,7 @@
                   <button type="submit" class="submitt btn btn-lg">ENTRAR</button><br>
                   <div style="margin-top:15px;">
                     <span style="color:#606060; font-size:20px; ">Recuperar contraseña <a href="">aquí</a></span><br>
-                   <!-- <span style="color:#606060; font-size:20px;">Crear cuenta <a href="">aquí</a></span> -->
+                   <!--r <span style="color:#606060; font-size:20px;">Crear cuenta <a href="">aquí</a></span> -->
                   </div> 
                 </div>
               </div>
