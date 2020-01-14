@@ -10,10 +10,10 @@
     <title>Inicio</title>
 </head>
 <body style="background: url('img/fondo1.jpg') no-repeat center center fixed; background-size:cover; width:100%; height:100%">
-  <div class="container-fluid" style="text-align:center;display:none;">
+  <div class="container-fluid" style="text-align:center;">
     <div class="row">
       <div class="col-sm-8 col-xl-5 col-lg-6 col-12 offset-lg-1 offset-sm-1 offset-xl-1" style="margin:0px;padding:0px;">
-        <div class="rectanguloform animated fadeInLeft " style="box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);">
+        <div class="rectanguloform animated fadeInLeft " style="box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.75);">
           <div style="text-align:center;">
              <img src="img/logof.png" class="logo">
           </div>
@@ -30,6 +30,7 @@
                   <input class="form-control" type="password" style="font-size:16px;" placeholder="Ingresar contraseña...">
                   <span class="fas fa-lock iconopass"></span>
                   <br>
+                  <p class="text-center" style="color:red;">Los datos ingresados son incorrectos <i class="fas fa-exclamation"></i></p>
                   <button type="submit" class="submitt btn btn-lg">ENTRAR</button><br>
                   <div style="margin-top:15px;">
                     <span style="color:#606060; font-size:20px; ">Recuperar contraseña <a href="">aquí</a></span><br>

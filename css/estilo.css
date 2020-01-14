@@ -43,7 +43,6 @@ input[type=password] {
   .submitt{
     color:white;
     font-size:22px;
-    margin-top:25px;
     width:100%; 
     background-image:linear-gradient(to bottom, #0099FF , #004D80); 
     border:0px;
@@ -57,7 +56,7 @@ input[type=password] {
   background-color:white; 
   margin-left:5%; 
   margin-top:20%;
-  border-radius:50px;
+  border-radius:0px;
 }
 }
 
@@ -68,7 +67,7 @@ input[type=password] {
   background-color:white; 
   margin-left:10%; 
   margin-top:20%;
-  border-radius:50px;
+  border-radius:0px;
 }
 
 }
