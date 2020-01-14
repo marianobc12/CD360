@@ -10,7 +10,7 @@
     <title>Inicio</title>
 </head>
 <body style="background: url('img/fondo1.jpg') no-repeat center center fixed; background-size:cover; width:100%; height:100%">
-  <div class="container-fluid" style="text-align:center;">
+  <div class="container-fluid" style="text-align:center;display:none;">
     <div class="row">
       <div class="col-sm-8 col-xl-5 col-lg-6 col-12 offset-lg-1 offset-sm-1 offset-xl-1" style="margin:0px;padding:0px;">
         <div class="rectanguloform animated fadeInLeft " style="box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);">
@@ -46,6 +46,16 @@
       </div>  
     </div>
   </div>
+    <div class="container h-100">
+      <div class="row h-100">
+        <div class="col-lg-4 offset-lg-4 mx-auto my-auto">
+        <div class="cont-cargando mx-auto">
+          <img heigh="70" width="70" class="d-block m-auto" src="img/loading.gif" alt="">
+          <h6 class="text-center">ENTRANDO</h6>
+        </div>
+        </div>
+      </div>
+    </div>
 
 
     <script src="js/jquery-3.4.1.min.js"></script>

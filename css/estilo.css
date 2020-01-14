@@ -9,6 +9,13 @@ azul boton: ##004D80*/
 }
 
 
+
+/*CAMBIOS PARA EL BODY GENERAL*/
+.body{
+  font-family: montserrat;
+}
+
+
 .form-group{
 text-align:left;
 }
@@ -45,7 +52,6 @@ input[type=password] {
 
 @media only screen and (max-width: 899px) {
 .rectanguloform{
-  font-family: montserrat;
   height: 80%; 
   width:90%;
   background-color:white; 
@@ -57,7 +63,6 @@ input[type=password] {
 
 @media only screen and (min-width: 900px) {
 .rectanguloform{
-  font-family: montserrat;
   height: 80%; 
   width:80%;
   background-color:white; 
@@ -109,4 +114,13 @@ a:active {
   z-index: 2;
   color: #A9A9A9;
   font-size:22px;
+}
+
+/* CONTENEDOR CARGANDO DEL LOGIN */
+.cont-cargando{
+  background: white;
+  height: 120px;
+  width: 120px;
+  padding: 20px;
+  box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.75);
 }
