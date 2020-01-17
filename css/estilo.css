@@ -43,9 +43,15 @@ input[type=password] {
     color:white;
     font-size:22px;
     width:100%; 
-    background-image:linear-gradient(to bottom, #0099FF , #004D80); 
     border:0px;
+    border:1px solid #0099ff;
+    color: #0099ff;
     border-radius: 0px;
+  }
+  .submitt:hover{
+    border: none;
+    background: #0099FF;
+    color: white;
   }
 
 @media only screen and (max-width: 899px) {

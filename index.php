@@ -18,20 +18,20 @@
              <img src="img/logof.png" class="logo img-fluid">
           </div>
           <hr style="border-top: 1px solid #B7B7B7; width:95%; border-radius:5px;">
-          <form class="col-sm-12">
+          <form class="col-sm-12" method="post" onsubmit="login();">
             <span style="color:#112A7A; font-size:16px;">INICIAR SESIÓN</span>
               <div class="row justify-content-sm-center" style="margin-top:10px;">
                 <div class="form-group col-sm-10 col-sm-offset-1">
                   <label><span style="color:#112A7A; font-size:14px;">Usuario</span></label><br>
-                  <input class="form-control" type="text" style="font-size:16px;" placeholder="Ingresar usuario...">
+                  <input class="form-control" type="text" id="usuario" style="font-size:16px;" placeholder="Ingresar usuario...">
                   <span class="fas fa-user iconouser"></span>
                   <br>
                   <label style="margin-top:10px;"><span style="color:#112A7A; font-size:14px;">Contraseña</span></label><br>
-                  <input class="form-control" type="password" style="font-size:16px;" placeholder="Ingresar contraseña...">
+                  <input class="form-control" type="password" id="pass" style="font-size:16px;" placeholder="Ingresar contraseña...">
                   <span class="fas fa-lock iconopass"></span>
                   <br>
-                  <p class="text-center" style="color:red;">Los datos ingresados son incorrectos <i class="fas fa-exclamation"></i></p>
-                  <button type="submit" class="submitt btn btn-lg">ENTRAR</button><br>
+                  <p class="text-center d-none" style="color:red;">Los datos ingresados son incorrectos <i class="fas fa-exclamation"></i></p>
+                  <button type="submit" class="submitt btn btn-lg"><i class="fas fa-sign-in-alt"></i> ENTRAR</button><br>
                   <div style="margin-top:15px;">
                     <span style="color:#606060; font-size:16px; ">Recuperar contraseña <a href="">aquí</a></span><br>
                    <!--r <span style="color:#606060; font-size:20px;">Crear cuenta <a href="">aquí</a></span> -->
@@ -61,6 +61,7 @@
 
     <script src="js/jquery-3.4.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="ajax/funciones.js"></script>
 </body>
 </html>
 

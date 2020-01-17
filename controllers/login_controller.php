@@ -2,8 +2,19 @@
 
 require_once('../models/user_model.php');
 
+$usuario=$_POST['usuario'];
+$pass=$_POST['pass'];
+
 $user=new user_model();
 
-echo $user->login('mariano','ewe');
+
+
+$estado=$user->login($usuario,$pass);
+
+$arr = array('estado'=>$estado);
+
+echo json_encode($arr);
+
+
 
 ?>
