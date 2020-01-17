@@ -23,9 +23,8 @@ text-align:left;
     margin-top:20px;
 }
 .logo{
-    width:330px;
-    height:230px;
-    margin-top:-75px;
+    width:260px;
+    margin-top:-60px;
 }
 input[type=text] {
     border: none;
@@ -51,22 +50,18 @@ input[type=password] {
 
 @media only screen and (max-width: 899px) {
 .rectanguloform{
-  height: 80%; 
   width:90%;
   background-color:white; 
   margin-left:5%; 
-  margin-top:20%;
   border-radius:0px;
 }
 }
 
 @media only screen and (min-width: 900px) {
 .rectanguloform{
-  height: 80%; 
   width:80%;
   background-color:white; 
   margin-left:10%; 
-  margin-top:20%;
   border-radius:0px;
 }
 

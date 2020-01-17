@@ -11,29 +11,29 @@
 </head>
 <body style="background: url('img/fondo1.jpg') no-repeat center center fixed; background-size:cover; width:100%; height:100%">
   <div class="container-fluid" style="text-align:center;">
-    <div class="row">
-      <div class="col-sm-8 col-xl-5 col-lg-6 col-12 offset-lg-1 offset-sm-1 offset-xl-1" style="margin:0px;padding:0px;">
+    <div class="row h-100">
+      <div class="col-sm-8 col-xl-5 col-lg-6 col-12 offset-lg-1 offset-sm-1 offset-xl-1 my-auto" style="margin:0px;padding:0px;">
         <div class="rectanguloform animated fadeInLeft " style="box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.75);">
           <div style="text-align:center;">
-             <img src="img/logof.png" class="logo">
+             <img src="img/logof.png" class="logo img-fluid">
           </div>
           <hr style="border-top: 1px solid #B7B7B7; width:95%; border-radius:5px;">
           <form class="col-sm-12">
-            <span style="color:#112A7A; font-size:26px;">INICIAR SESIÓN</span>
+            <span style="color:#112A7A; font-size:16px;">INICIAR SESIÓN</span>
               <div class="row justify-content-sm-center" style="margin-top:10px;">
                 <div class="form-group col-sm-10 col-sm-offset-1">
-                  <label><span style="color:#112A7A; font-size:20px;">Usuario</span></label><br>
+                  <label><span style="color:#112A7A; font-size:14px;">Usuario</span></label><br>
                   <input class="form-control" type="text" style="font-size:16px;" placeholder="Ingresar usuario...">
                   <span class="fas fa-user iconouser"></span>
                   <br>
-                  <label style="margin-top:10px;"><span style="color:#112A7A; font-size:20px;">Contraseña</span></label><br>
+                  <label style="margin-top:10px;"><span style="color:#112A7A; font-size:14px;">Contraseña</span></label><br>
                   <input class="form-control" type="password" style="font-size:16px;" placeholder="Ingresar contraseña...">
                   <span class="fas fa-lock iconopass"></span>
                   <br>
                   <p class="text-center" style="color:red;">Los datos ingresados son incorrectos <i class="fas fa-exclamation"></i></p>
                   <button type="submit" class="submitt btn btn-lg">ENTRAR</button><br>
                   <div style="margin-top:15px;">
-                    <span style="color:#606060; font-size:20px; ">Recuperar contraseña <a href="">aquí</a></span><br>
+                    <span style="color:#606060; font-size:16px; ">Recuperar contraseña <a href="">aquí</a></span><br>
                    <!--r <span style="color:#606060; font-size:20px;">Crear cuenta <a href="">aquí</a></span> -->
                   </div> 
                 </div>
@@ -47,7 +47,7 @@
       </div>  
     </div>
   </div>
-    <div class="container h-100">
+    <div class="container h-100 d-none">
       <div class="row h-100">
         <div class="col-lg-4 offset-lg-4 mx-auto my-auto">
         <div class="cont-cargando mx-auto">
