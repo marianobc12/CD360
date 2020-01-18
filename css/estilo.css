@@ -1,18 +1,23 @@
+
+@import url('https://fonts.googleapis.com/css?family=Varela+Round&display=swap');
+
 /*celeste desing #6DBDC6
 azul letras: #4580CD
 celeste boton: #0099FF
 azul boton: ##004D80*/
 
-@font-face {
+
+/*@font-face {
   font-family: montserrat;
   src: url(../webfonts/Montserrat-Regular.woff);
-}
+}*/
+
 
 
 
 /*CAMBIOS PARA EL BODY GENERAL*/
-.body{
-  font-family: montserrat;
+body{
+ font-family: 'Varela Round', sans-serif;
 }
 
 
@@ -29,19 +34,19 @@ text-align:left;
 input[type=text] {
     border: none;
     border-radius: 0px;
-    border-bottom: 2px solid #B7B7B7;
+    border-bottom: 2px solid #26e2d3;
     width:100%;
     padding-left:30px;
   }
 input[type=password] {
     border: none;
-    border-bottom: 2px solid #B7B7B7;
+    border-bottom: 2px solid #26e2d3;
     width:100%;
     padding-left:30px;
   }
   .submitt{
     color:white;
-    font-size:22px;
+    font-size:20px;
     width:100%; 
     border:0px;
     border:1px solid #0099ff;
@@ -50,7 +55,7 @@ input[type=password] {
   }
   .submitt:hover{
     border: none;
-    background: #0099FF;
+    background: #26e2d3;
     color: white;
   }
 
@@ -74,13 +79,13 @@ input[type=password] {
 }
 
 a:link {
-  color:#112A7A;
+  color:#0099ff;
   text-decoration:none;
 }
 
 /* visited link */
 a:visited {
-  color:#112A7A;
+  color:#0099ff;
   text-decoration:none;
 }
 
@@ -123,4 +128,20 @@ a:active {
   width: 120px;
   padding: 20px;
   box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.75);
+}
+
+
+/* MENU GENERAL */
+.navbar{
+  background: #0099ff;
+}
+.navbar .navbar-brand{
+  color: white;
+  font-size: 20px;
+}
+.navbar-collapse .navbar-nav .nav-item .nav-link{
+  color:white;
+}
+.navbar-collapse .navbar-nav .nav-item{
+  padding: 15px;
 }

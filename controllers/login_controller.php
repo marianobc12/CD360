@@ -1,5 +1,4 @@
 <?php
-
 require_once('../models/user_model.php');
 
 $usuario=$_POST['usuario'];
@@ -11,7 +10,10 @@ $user=new user_model();
 
 $estado=$user->login($usuario,$pass);
 
-$arr = array('estado'=>$estado);
+$rol=$_SESSION['rol'];
+
+
+$arr = array('estado'=>$estado,'rol'=>$rol);
 
 echo json_encode($arr);
 
