@@ -11,11 +11,12 @@ function login() {
         dataType: 'json'
     })
     .done(function(res){
-        alert(res.estado);
         if (res.estado==1) {
-            alert("acceso");
+            $('#cont-login').hide();
+            $('#cont-cargando').show();
         }else{
-            alert("acceso denegado");
+            $('#error-login').show();
+            $('#error-login').html('<i class="fas fa-exclamation-circle"></i> Los datos ingresados son incorrectos');
         }
     })
 }
