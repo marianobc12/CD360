@@ -1,7 +1,12 @@
 <?php
 session_start();
 
-// COMPRAR EL ACCESO
+$rol=$_SESSION['rol'];
+
+echo $rol;
+if($rol!=1){
+  header('Location:../restriccion.php');
+}
 
 ?>
 
