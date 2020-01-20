@@ -14,14 +14,20 @@ class user_model{
         $existe=mysqli_num_rows($res);
         $user=$res->fetch_assoc();
         if ($existe==1) {
-            $_SESSION['rol']=$user['idRol'];
+            $this->tomarRol(1);
+            $_SESSION['idRol']=$user['idRol'];
             return 1;
         }else{
             return 0;
         }
     }
 
-    
+    public function tomarRol($idRol){
+        $sql="SELECT nombre FROM roles WHERE idRoles='$idRol'";
+        $res=$this->db->query($sql);
+        $rol=$res->fetch_assoc();
+        $_SESSION['nombreRol']=$rol['nombre'];
+    }
 
 
 }

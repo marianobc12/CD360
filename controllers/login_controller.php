@@ -6,11 +6,9 @@ $pass=$_POST['pass'];
 
 $user=new user_model();
 
-
-
 $estado=$user->login($usuario,$pass);
 
-$rol=$_SESSION['rol'];
+$rol=$_SESSION['idRol'];
 
 
 $arr = array('estado'=>$estado,'rol'=>$rol);
