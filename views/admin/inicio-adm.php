@@ -1,7 +1,7 @@
 <?php
 session_start();
 
-$rol=$_SESSION['rol'];
+$rol=$_SESSION['idRol'];
 
 echo $rol;
 if($rol!=1){

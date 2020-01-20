@@ -1,5 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css?family=Varela+Round&display=swap');
+@import url('animate.css');
 
 /*celeste desing #6DBDC6
 azul letras: #4580CD
@@ -144,4 +145,32 @@ a:active {
 }
 .navbar-collapse .navbar-nav .nav-item{
   padding: 15px;
+}
+
+
+/* AVISO DE RESTRICCION */
+.cont-aviso-login{
+  background: white;
+  padding: 30px;
+  animation: fadeInDown forwards 1s;
+  box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.75);
+}
+.cont-aviso-login i{
+  color: #26e2d3;
+}
+.cont-aviso-login h4,.cont-aviso-login h5{
+  color: #0099ff;
+}
+.cont-aviso-login button{
+  color:white;
+  font-size:20px; 
+  border:0px;
+  border:1px solid #0099ff;
+  color: #0099ff;
+  border-radius: 0px;
+}
+.cont-aviso-login button:hover{
+  border: none;
+  background: #26e2d3;
+  color: white;
 }
