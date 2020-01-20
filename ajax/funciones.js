@@ -16,7 +16,7 @@ function login() {
             $('#cont-cargando').show();
             switch (parseInt(res.rol)) {
                 case 1:
-                    location.href='./views/inicio-adm.php';
+                    location.href='./views/admin/inicio-adm.php';
                     break;
                 case 2:
                     location.href='./views/inicio-cliente.php';
