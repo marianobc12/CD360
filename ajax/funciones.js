@@ -34,7 +34,7 @@ function login() {
                     location.href='./views/';
                     break;
                 case 7:
-                    location.href='./views/';
+                    location.href='./views/rrhh/inicio-rrhh.php';
                     break;
                 case 8:
                     location.href='./views/';
