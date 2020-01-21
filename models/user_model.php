@@ -9,13 +9,14 @@ class user_model{
     }
 
     public function login($user,$password){
-        $sql="SELECT * FROM users WHERE user='$user' AND pass='$password' LIMIT 1";
+        $sql="SELECT * FROM users INNER JOIN empleados ON users.idEmpleado=empleados.idEmpleado WHERE user='$user' AND pass='$password' LIMIT 1";
         $res=$this->db->query($sql);
         $existe=mysqli_num_rows($res);
         $user=$res->fetch_assoc();
         if ($existe==1) {
             $this->tomarRol(1);
             $_SESSION['idRol']=$user['idRol'];
+            $_SESSION['nombre']=$user['nombre'];
             return 1;
         }else{
             return 0;
