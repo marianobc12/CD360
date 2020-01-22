@@ -58,7 +58,7 @@ function login() {
             }
         }else{
             $('#error-login').show();
-            $('#error-login').html('<i class="fas fa-exclamation-circle"></i> Los datos ingresados son incorrectos');
+            $('#error-login').html('<p class="animated shake"><i class="fas fa-exclamation-circle"></i> Los datos ingresados son incorrectos</p>');
         }
     })
     .fail(function() { alert('Ocurrió un error , vuelve a intentarlo mas tarde.'); });
