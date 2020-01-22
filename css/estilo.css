@@ -45,6 +45,11 @@ body{
 }
 
 
+.form-control:focus{
+  outline:none !important;
+  outline-width: 0 !important;
+  box-shadow: none;
+}
 .form-group{
 text-align:left;
 }
@@ -58,13 +63,14 @@ text-align:left;
 input[type=text] {
     border: none;
     border-radius: 0px;
-    border-bottom: 2px solid #26e2d3;
+    border-bottom: 1px solid #26e2d3;
     width:100%;
     padding-left:30px;
   }
 input[type=password] {
     border: none;
-    border-bottom: 2px solid #26e2d3;
+    border-bottom: 1px solid #26e2d3;
+    border-radius: 0px;
     width:100%;
     padding-left:30px;
   }
@@ -132,7 +138,7 @@ a:active {
   position: relative;
   z-index: 2;
   color: #A9A9A9;
-  font-size:22px;
+  font-size:18px;
 }
 
 .iconopass{
@@ -142,7 +148,7 @@ a:active {
   position: relative;
   z-index: 2;
   color: #A9A9A9;
-  font-size:22px;
+  font-size:18px;
 }
 
 /* CONTENEDOR CARGANDO DEL LOGIN */
