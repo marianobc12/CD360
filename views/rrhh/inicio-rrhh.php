@@ -37,8 +37,8 @@ if($rol!=7){
         <i class="fas fa-users fa-lg"></i> Mi Perfíl
         </a>
         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#"><i class="fas fa-plus fa-lg"></i> Nuevo personal</a>
-          <a class="dropdown-item" href="#"><i class="fas fa-list fa-lg"></i> Lista de personal</a>
+          <a class="dropdown-item" href="#"><i class="fas fa-plus fa-lg cl3"></i> Nuevo personal</a>
+          <a class="dropdown-item" href="#"><i class="fas fa-list fa-lg cl3"></i> Lista de personal</a>
         </div>
       </li>
       <li class="nav-item dropdown">
@@ -48,9 +48,9 @@ if($rol!=7){
         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
           <p class="dropdown-item mb-0"><b>ROL:&nbsp</b><?php echo strtoupper($_SESSION['nombreRol']); ?></p>
           <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="#"><i class="fas fa-id-card-alt fa-lg"></i> Mis Datos</a>
-          <a class="dropdown-item" href="#"><i class="fas fa-unlock-alt fa-lg"></i> Seguridad</a>
-          <a class="dropdown-item" href="#"><i class="fas fa-arrow-right fa-lg"></i> Cerrar Sesión</a>
+          <a class="dropdown-item" href="#"><i class="fas fa-id-card-alt fa-lg cl3"></i> Mis Datos</a>
+          <a class="dropdown-item" href="#"><i class="fas fa-unlock-alt fa-lg cl3"></i> Seguridad</a>
+          <a class="dropdown-item" href="#"><i class="fas fa-arrow-right fa-lg cl3"></i> Cerrar Sesión</a>
         </div>
       </li>
       
@@ -59,7 +59,7 @@ if($rol!=7){
 </nav>
 <div class="container-fluid mt-5">
     <div class="row">
-        <div class="col-lg-6  animated fadeInUp mt-5 ">
+        <div class="col-lg-6  animated fadeInUp slow mt-5 ">
             <img class="d-block m-auto" height="80" width="80" src="../../img/smile.png" alt="">
             <h2 class="text-center saludo msr mt-3">¡Hola <span class="cl3"><?php echo $_SESSION['nombre']; ?> </span> , me alegra verte de nuevo!</h2>
         </div>
@@ -103,7 +103,7 @@ if($rol!=7){
         </div>
     </div>
     <div class="row mt-5">
-        <div class="col-lg-6">
+        <div class="col-lg-6 animated fadeInUp slow">
           <h2 class="text-center msr cl1"><img style="vertical-align: sub;" src="../../img/graphic.png" width="40" height="40" alt="Estadistica"> Estadistica</h2>
           <div class="row mt-5">
             <div class="col-lg-3 offset-lg-3">
@@ -118,8 +118,20 @@ if($rol!=7){
             </div>
             </div>
         </div>
-        <div class="col-lg-6">
+        <div class="col-xl-4 offset-xl-1 col-lg-6 animated fadeInRight slow">
           <h2 class="text-center msr cl1"><img style="vertical-align: sub;" src="../../img/identification.png" width="40" height="40" alt="Información"> Mi Info</h2>
+          <div class="row">
+            <div class="col-lg-4 col-md-6 col-sm-6">
+              <img style="width:170px;height:170px;" class="d-block m-auto img-thumbnail" src="../../img/user4.jpg" alt="">
+            </div>
+            <div class="col msr">
+              <h4 class="mt-4"><b>Nombre Completo:</b></h4>
+              <h4 class="mt-4"><b>Rol:</b></h4>
+              <h4 class="mt-4"><b>E-mail:</b></h4>
+              <h4 class="mt-4 mb-5"><b>Celular:</b></h4>
+              <button class="btn btn-lg d-block m-auto btn-op1"><i class="fas fa-chevron-right fa-lg"></i> Ver más</button>
+            </div>
+          </div>
         </div>
     </div>
 </div>

@@ -13,6 +13,21 @@ azul boton: ##004D80*/
   font-family: montserrat;
   src: url(../webfonts/Montserrat-Regular.woff);
 }*/
+.btn-op1{
+  color:white;
+  font-size:20px;
+  width:100%; 
+  border:0px;
+  border:1px solid #0099ff;
+  color: #0099ff;
+  border-radius: 0px;
+}
+.btn-op1:hover{
+  border: none;
+  background: #26e2d3;
+  color: white;
+}
+
 .cl1{
   color: #0099FF;
 }
