@@ -1,10 +1,12 @@
 <?php
+ob_start();
 require_once('../../controllers/user_controller.php');
 
 $rol=$_SESSION['idRol'];
 
 
 //echo $rol;
+
 if($rol!=7){
   header('Location:../restriccion.php');
 }
@@ -38,7 +40,7 @@ if($rol!=7){
         <i class="fas fa-users fa-lg"></i> Mi Perfíl
         </a>
         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#"><i class="fas fa-plus fa-lg cl3"></i> Nuevo personal</a>
+          <a class="dropdown-item" href="nuevo-usuario.php"><i class="fas fa-plus fa-lg cl3"></i> Nuevo personal</a>
           <a class="dropdown-item" href="#"><i class="fas fa-list fa-lg cl3"></i> Lista de personal</a>
         </div>
       </li>
