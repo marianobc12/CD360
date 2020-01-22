@@ -61,4 +61,5 @@ function login() {
             $('#error-login').html('<i class="fas fa-exclamation-circle"></i> Los datos ingresados son incorrectos');
         }
     })
+    .fail(function() { alert('Ocurrió un error , vuelve a intentarlo mas tarde.'); });
 }
