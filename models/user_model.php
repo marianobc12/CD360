@@ -14,14 +14,24 @@ class user_model{
         $existe=mysqli_num_rows($res);
         $user=$res->fetch_assoc();
         if ($existe==1) {
-            $this->tomarRol(1);
+            $_SESSION['idUser']=$user['idUser'];
             $_SESSION['idEmp']=$user['idEmpleado'];
+            $this->tomarRol($user['idRol']);
             $_SESSION['idRol']=$user['idRol'];
             $_SESSION['nombre']=$user['nombre'];
             return 1;
         }else{
             return 0;
         }
+    }
+
+
+    public function tomarDatos(){
+        $idUser=$_SESSION['idUser'];
+        $sql="SELECT * FROM users INNER JOIN empleados ON users.idEmpleado=empleados.idEmpleado WHERE idUser='$idUser'";
+        $res=$this->db->query($sql);
+        $emp=$res->fetch_assoc();
+        return $emp;
     }
 
     public function tomarRol($idRol){

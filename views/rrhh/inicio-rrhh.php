@@ -3,6 +3,7 @@ require_once('../../controllers/user_controller.php');
 
 $rol=$_SESSION['idRol'];
 
+
 //echo $rol;
 if($rol!=7){
   header('Location:../restriccion.php');
@@ -125,8 +126,8 @@ if($rol!=7){
               <img style="width:170px;height:170px;" class="d-block m-auto img-thumbnail" src="../../img/user4.jpg" alt="">
             </div>
             <div class="col msr">
-              <h4 class="mt-4"><b>Nombre Completo:</b></h4>
-              <h4 class="mt-4"><b>Rol:</b></h4>
+              <h4 class="mt-4"><b>Nombre Completo:</b> <?php echo $emp['apellido'].' '.$emp['nombre'];  ?></h4>
+              <h4 class="mt-4"><b>Rol:</b> <?php echo $_SESSION['nombreRol']; ?></h4>
               <h4 class="mt-4"><b>E-mail:</b></h4>
               <h4 class="mt-4 mb-5"><b>Celular:</b></h4>
               <button class="btn btn-lg d-block m-auto btn-op1"><i class="fas fa-chevron-right fa-lg"></i> Ver más</button>
