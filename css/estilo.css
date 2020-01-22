@@ -216,3 +216,14 @@ a:active {
 .saludo{
   color: #0099ff;
 }
+
+
+/*CONTENEDOR FOTO NUEVO EMPLEADO*/
+.cont-foto{
+  margin-top: 10%;
+}
+.cont-foto .btn-foto:hover{
+  cursor: pointer;
+}
+
+
