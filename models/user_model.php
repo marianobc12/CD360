@@ -15,6 +15,7 @@ class user_model{
         $user=$res->fetch_assoc();
         if ($existe==1) {
             $this->tomarRol(1);
+            $_SESSION['idEmp']=$user['idEmpleado'];
             $_SESSION['idRol']=$user['idRol'];
             $_SESSION['nombre']=$user['nombre'];
             return 1;
@@ -30,6 +31,20 @@ class user_model{
         $_SESSION['nombreRol']=$rol['nombre'];
     }
 
+    public function totalUsuarios(){
+        $sql="SELECT COUNT(*) as total FROM users";
+        $res=$this->db->query($sql);
+        $total=$res->fetch_assoc();
+        return $total['total'];
+    }
+
+    public function agregadosRrhh(){
+        $idEmp=$_SESSION['idEmp'];
+        $sql="SELECT COUNT(*) as total FROM users WHERE rrhhAlta='$idEmp'";
+        $res=$this->db->query($sql);
+        $total=$res->fetch_assoc();
+        return $total['total'];
+    }
 
 }
 

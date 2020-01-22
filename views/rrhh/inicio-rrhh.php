@@ -1,5 +1,5 @@
 <?php
-session_start();
+require_once('../../controllers/user_controller.php');
 
 $rol=$_SESSION['idRol'];
 
@@ -32,15 +32,6 @@ if($rol!=7){
 
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav ml-auto">
-      <!--<li class="nav-item active">
-        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Link</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link disabled" href="#">Disabled</a>
-      </li>-->
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
         <i class="fas fa-users fa-lg"></i> Mi Perfíl
@@ -68,7 +59,7 @@ if($rol!=7){
 </nav>
 <div class="container-fluid mt-5">
     <div class="row">
-        <div class="col-lg-6  animated fadeInUp ">
+        <div class="col-lg-6  animated fadeInUp mt-5 ">
             <img class="d-block m-auto" height="80" width="80" src="../../img/smile.png" alt="">
             <h2 class="text-center saludo msr mt-3">¡Hola <span class="cl3"><?php echo $_SESSION['nombre']; ?> </span> , me alegra verte de nuevo!</h2>
         </div>
@@ -114,6 +105,18 @@ if($rol!=7){
     <div class="row mt-5">
         <div class="col-lg-6">
           <h2 class="text-center msr cl1"><img style="vertical-align: sub;" src="../../img/graphic.png" width="40" height="40" alt="Estadistica"> Estadistica</h2>
+          <div class="row mt-5">
+            <div class="col-lg-3 offset-lg-3">
+              <img class="img-fluid d-block m-auto" src="../../img/usuario.png" width="60" height="60" alt="">
+              <h4 class="text-center mt-4 msr">Total de usuarios</h4>
+              <h2 class="text-center msr"><?php echo $totalUsuarios;  ?></h2>
+            </div>
+            <div class="col-lg-3">
+              <img class="img-fluid d-block m-auto" src="../../img/agregar.png" width="60" height="60" alt="">
+              <h4 class="text-center mt-4 msr">Tu agregastes</h4>
+              <h2 class="text-center msr"><?php echo $agregadosRrhh;  ?></h2>
+            </div>
+            </div>
         </div>
         <div class="col-lg-6">
           <h2 class="text-center msr cl1"><img style="vertical-align: sub;" src="../../img/identification.png" width="40" height="40" alt="Información"> Mi Info</h2>
