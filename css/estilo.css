@@ -44,7 +44,11 @@ body{
  font-family: 'Varela Round', sans-serif;
 }
 
-
+.btn:focus{
+  outline:none !important;
+  outline-width: 0 !important;
+  box-shadow: none;
+}
 .form-control:focus{
   outline:none !important;
   outline-width: 0 !important;
@@ -219,8 +223,11 @@ a:active {
 
 
 /*CONTENEDOR FOTO NUEVO EMPLEADO*/
-.cont-foto{
+.cont-foto,.cont-datos-personales,.cont-datos-trabajo{
   margin-top: 10%;
+}
+.cont-datos-personales,.cont-datos-trabajo{
+  display: none;
 }
 .cont-foto .btn-foto:hover{
   cursor: pointer;
