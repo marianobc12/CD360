@@ -10,5 +10,5 @@ $agregadosRrhh=$user->agregadosRrhh();
 
 $emp=$user->tomarDatos();
 
-
+$ultimosUser=$user->ultimos5Usuarios();
 ?>
