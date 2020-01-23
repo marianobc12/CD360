@@ -61,14 +61,14 @@ if($rol!=7){
         <div class="col-xl-12 cont-foto animated fadeIn slow">
             <h1 class="text-center cl1 mb-2"><img style="vertical-align: sub;"  height="50" src="../../img/pasos.png" alt="Primer paso"> Primer paso</h1>
             <h2 class="text-center msr cl3 mb-5">Sube la foto del empleado</h2>
-            <img style="width:170px;height:170px;" class="d-block m-auto img-thumbnail" src="../../img/sin-foto.png" alt="">
+            <img style="width:170px;height:170px;" class="d-block m-auto img-thumbnail" id="fotoMuestra" src="../../img/sin-foto.png" alt="">
             <div class="mt-5 mb-4">
                 <label class="btn btn-lg d-block m-auto btn-op1 btn-foto" style="width:200px" for="foto"><i class="fas fa-plus fa-lg"></i> Agregar foto</label>
-                <input class="d-none" type="file" id="foto">
+                <input class="d-none" type="file" onchange="visualizarImg()" id="foto">
             </div>
-            <button class="btn btn-lg d-block m-auto btn-op1"style="width:200px;" ><i class="fas fa-chevron-right fa-lg"></i> Siguiente</button>
+            <button class="btn btn-lg d-block m-auto btn-op1"style="width:200px;"  onclick="seleccionarPaso(2)"><i class="fas fa-chevron-right fa-lg"></i> Siguiente</button>
         </div>
-        <div class="col-xl-8 offset-xl-2 cont-datos-personales">
+        <div class="col-xl-8 offset-xl-2 cont-datos-personales animated fadeIn slow">
             <h1 class="text-center cl1 mb-2"><img style="vertical-align: sub;"  height="50" src="../../img/pasos.png" alt="Primer paso"> Segundo paso</h1>
             <h2 class="text-center msr cl3 mb-5">Completa con los datos del empleado</h2>
             <div class="row">
@@ -113,14 +113,14 @@ if($rol!=7){
             </div>
             <div class="row mt-4">
                 <div class="col">
-                    <button class="btn btn-lg btn-op1">Atras</button>
+                    <button class="btn btn-lg btn-op1" onclick="seleccionarPaso(1)">Atras</button>
                 </div>
                 <div class="col">
-                    <button class="btn btn-lg btn-op1">Siguiente</button>
+                    <button class="btn btn-lg btn-op1" onclick="seleccionarPaso(3)">Siguiente</button>
                 </div>
             </div>
         </div>
-        <div class="col-xl-8 offset-xl-2 cont-datos-trabajo">
+        <div class="col-xl-8 offset-xl-2 cont-datos-trabajo animated fadeIn slow">
             <h1 class="text-center cl1 mb-2"><img style="vertical-align: sub;"  height="50" src="../../img/pasos.png" alt="Primer paso"> Tercer paso</h1>
             <h2 class="text-center msr cl3 mb-5">Completa con los datos del trabajo</h2>
             <div class="row">
@@ -157,7 +157,7 @@ if($rol!=7){
             </div>
             <div class="row mt-4">
                 <div class="col">
-                    <button class="btn btn-lg btn-op1">Atras</button>
+                    <button class="btn btn-lg btn-op1" onclick="seleccionarPaso(2)">Atras</button>
                 </div>
                 <div class="col">
                     <button class="btn btn-lg btn-op1">Siguiente</button>
@@ -173,5 +173,6 @@ if($rol!=7){
 
 <script src="../../js/jquery-3.4.1.min.js"></script>
 <script src="../../js/bootstrap.min.js"></script>
+<script src="../../js/funciones.js"></script>
 </body>
 </html>
