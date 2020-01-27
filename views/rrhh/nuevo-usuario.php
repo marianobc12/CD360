@@ -63,10 +63,10 @@ if($rol!=7){
             <h2 class="text-center msr cl3 mb-5">Sube la foto del empleado</h2>
             <img style="width:170px;height:170px;" class="d-block m-auto img-thumbnail" id="fotoMuestra" src="../../img/sin-foto.png" alt="">
             <div class="mt-5 mb-4">
-                <label class="btn btn-lg d-block m-auto btn-op1 btn-foto" style="width:200px" for="foto"><i class="fas fa-plus fa-lg"></i> Agregar foto</label>
+                <label class="btn btn-lg d-block m-auto btn-op1 btn-foto" style="width:200px" for="foto">Agregar foto <i class="fas fa-plus fa-lg"></i></label>
                 <input class="d-none" type="file" onchange="visualizarImg()" id="foto">
             </div>
-            <button class="btn btn-lg d-block m-auto btn-op1"style="width:200px;"  onclick="seleccionarPaso(2)"><i class="fas fa-chevron-right fa-lg"></i> Siguiente</button>
+            <button class="btn btn-lg d-block m-auto btn-op1"style="width:200px;"  onclick="seleccionarPaso(2)"> Siguiente <i class="fas fa-chevron-right fa-lg"></i></button>
         </div>
         <div class="col-xl-8 offset-xl-2 cont-datos-personales animated fadeIn slow">
             <h1 class="text-center cl1 mb-2"><img style="vertical-align: sub;"  height="50" src="../../img/pasos.png" alt="Primer paso"> Segundo paso</h1>
@@ -113,10 +113,10 @@ if($rol!=7){
             </div>
             <div class="row mt-4">
                 <div class="col">
-                    <button class="btn btn-lg btn-op1" onclick="seleccionarPaso(1)">Atras</button>
+                    <button class="btn btn-lg btn-op1" onclick="seleccionarPaso(1)"><i class="fas fa-chevron-left fa-lg"></i> Atras</button>
                 </div>
                 <div class="col">
-                    <button class="btn btn-lg btn-op1" onclick="seleccionarPaso(3)">Siguiente</button>
+                    <button class="btn btn-lg btn-op1" onclick="seleccionarPaso(3)">Siguiente <i class="fas fa-chevron-right fa-lg"></i></button>
                 </div>
             </div>
         </div>
@@ -157,10 +157,10 @@ if($rol!=7){
             </div>
             <div class="row mt-4">
                 <div class="col">
-                    <button class="btn btn-lg btn-op1" onclick="seleccionarPaso(2)">Atras</button>
+                    <button class="btn btn-lg btn-op1" onclick="seleccionarPaso(2)"><i class="fas fa-chevron-left fa-lg"></i> Atras</button>
                 </div>
                 <div class="col">
-                    <button class="btn btn-lg btn-op1" onclick="seleccionarPaso(4)">Siguiente</button>
+                    <button class="btn btn-lg btn-op1" onclick="seleccionarPaso(4)">Siguiente <i class="fas fa-chevron-right fa-lg"></i></button>
                 </div>
             </div>
         </div>
@@ -188,10 +188,10 @@ if($rol!=7){
             </div>
             <div class="row mt-4">
                 <div class="col">
-                    <button class="btn btn-lg btn-op1" onclick="seleccionarPaso(3)">Atras</button>
+                    <button class="btn btn-lg btn-op1" onclick="seleccionarPaso(3)"><i class="fas fa-chevron-left fa-lg"></i> Atras</button>
                 </div>
                 <div class="col">
-                    <button class="btn btn-lg btn-op1" >Finalizar</button>
+                    <button class="btn btn-lg btn-op1" >Finalizar <i class="fas fa-check fa-lg"></i></button>
                 </div>
             </div>
         </div>
