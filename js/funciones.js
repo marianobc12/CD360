@@ -11,9 +11,12 @@ function seleccionarPaso(paso){
             break;
         case 3:
             $('.cont-datos-personales').hide();
+            $('.cont-archivos-personales').hide();
             $('.cont-datos-trabajo').show();
             break;
         case 4:
+            $('.cont-datos-trabajo').hide();
+            $('.cont-archivos-personales').show();
             break;
     }
 }

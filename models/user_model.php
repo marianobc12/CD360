@@ -56,6 +56,11 @@ class user_model{
         return $total['total'];
     }
 
+    public function ultimos5Usuarios(){
+        $sql="SELECT *,empleados.nombre as emp_nombre,roles.nombre as rol_nombre FROM users INNER JOIN empleados ON users.idEmpleado=empleados.idEmpleado INNER JOIN roles ON users.idRol=roles.idRoles WHERE fechaAlta=(SELECT MAX(fechaAlta) FROM users) LIMIT 5";
+        $res=$this->db->query($sql);
+        return $res;
+    }
 }
 
 

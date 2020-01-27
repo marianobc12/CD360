@@ -77,30 +77,15 @@ if($rol!=7){
                 </tr>
             </thead>
             <tbody>
+              <?php while ($u=$ultimosUser->fetch_assoc()) {
+              ?>
                 <tr>
-                <td>Mark</td>
-                <td>Otto</td>
-                <td>@mdo</td>
+                <td><?php echo $u['emp_nombre'];   ?></td>
+                <td><?php echo $u['rol_nombre'];   ?></td>
+                <td><?php echo $u['email'];   ?></td>
                 </tr>
                 <tr>
-                <tr>
-                <td>Mark</td>
-                <td>Otto</td>
-                <td>@mdo</td>
-                </tr>
-                <tr>
-                <tr>
-                <td>Mark</td>
-                <td>Otto</td>
-                <td>@mdo</td>
-                </tr>
-                <tr>
-                <tr>
-                <td>Mark</td>
-                <td>Otto</td>
-                <td>@mdo</td>
-                </tr>
-                <tr>
+              <?php } ?>
             </tbody>
             </table>
         </div>

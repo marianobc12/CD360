@@ -160,7 +160,38 @@ if($rol!=7){
                     <button class="btn btn-lg btn-op1" onclick="seleccionarPaso(2)">Atras</button>
                 </div>
                 <div class="col">
-                    <button class="btn btn-lg btn-op1">Siguiente</button>
+                    <button class="btn btn-lg btn-op1" onclick="seleccionarPaso(4)">Siguiente</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-xl-8 offset-xl-2 cont-archivos-personales animated fadeIn slow">
+            <h1 class="text-center cl1 mb-2"><img style="vertical-align: sub;"  height="50" src="../../img/pasos.png" alt="Primer paso"> ¡Genial! , estás en el ultimo paso.</h1>
+            <h2 class="text-center msr cl3 mb-5">Sube los archivos</h2>
+            <div class="row">
+                <div class="col">
+                    <img class="d-block m-auto" width="100" height="100" src="../../img/identification.png" alt="Identificacion">
+                    <label class="btn btn-lg btn-op1 mt-4" for="credencial">Credencial</label>
+                    <input class="form-control d-none" type="file" id="credencial" required="">
+                </div>
+                <div class="col">
+                    <img class="d-block m-auto" width="100" height="100" src="../../img/bill.png" alt="Comprobante de domicilio">
+                    <label class="btn btn-lg btn-op1 mt-4" for="comprobDom">Comprobante de Domicilio</label>
+                    <input class="form-control d-none" type="file" id="comprobDom" required="">
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col-6">
+                    <img class="d-block m-auto" width="100" height="100" src="../../img/cv.png" alt="Curriculum Vitae">
+                    <label class="btn btn-lg btn-op1 mt-4" for="cv">Curriculum Vitae</label>
+                    <input class="form-control d-none" type="file" id="cv" required="">
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col">
+                    <button class="btn btn-lg btn-op1" onclick="seleccionarPaso(3)">Atras</button>
+                </div>
+                <div class="col">
+                    <button class="btn btn-lg btn-op1" >Finalizar</button>
                 </div>
             </div>
         </div>

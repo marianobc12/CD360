@@ -26,6 +26,7 @@ azul boton: ##004D80*/
   border: none;
   background: #26e2d3;
   color: white;
+  cursor: pointer;
 }
 
 .cl1{
@@ -223,10 +224,10 @@ a:active {
 
 
 /*CONTENEDOR FOTO NUEVO EMPLEADO*/
-.cont-foto,.cont-datos-personales,.cont-datos-trabajo{
+.cont-foto,.cont-datos-personales,.cont-datos-trabajo,.cont-archivos-personales{
   margin-top: 10%;
 }
-.cont-datos-personales,.cont-datos-trabajo{
+.cont-datos-personales,.cont-datos-trabajo,.cont-archivos-personales{
   display: none;
 }
 .cont-foto .btn-foto:hover{
