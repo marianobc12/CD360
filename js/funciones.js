@@ -18,7 +18,16 @@ function seleccionarPaso(paso){
             $('.cont-datos-trabajo').hide();
             $('.cont-archivos-personales').show();
             break;
+        case 5:
+            $('.cont-archivos-personales').hide();
+            $('.cont-aviso-empleado').show();
+            break;
     }
+}
+
+function volverAgregarEmpleado(){
+    $('.cont-aviso-empleado').hide();
+    $('.cont-foto').show();
 }
 
 function visualizarImg(){

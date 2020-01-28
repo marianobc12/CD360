@@ -191,7 +191,17 @@ if($rol!=7){
                     <button class="btn btn-lg btn-op1" onclick="seleccionarPaso(3)"><i class="fas fa-chevron-left fa-lg"></i> Atras</button>
                 </div>
                 <div class="col">
-                    <button class="btn btn-lg btn-op1" >Finalizar <i class="fas fa-check fa-lg"></i></button>
+                    <button class="btn btn-lg btn-op1" onclick="seleccionarPaso(5)">Finalizar <i class="fas fa-check fa-lg"></i></button>
+                </div>
+            </div>
+        </div>
+        <div class="col-xl-8 offset-xl-2 cont-aviso-empleado animated fadeIn slow">
+            <div class="row">
+                <div class="col">
+                    <img class="d-block m-auto" height="100" width="100" src="../../img/good.gif" alt="">
+                    <h1 class="text-center cl1">¡ Genial !</h1>
+                    <h2 class="text-center cl3 msr mb-4">El empleado se agregó correctamente</h2>
+                    <button class="btn btn-lg btn-op1 d-block m-auto" style="width:200px;" onclick="volverAgregarEmpleado()">Agregar otro</button>
                 </div>
             </div>
         </div>

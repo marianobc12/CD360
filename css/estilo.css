@@ -224,10 +224,10 @@ a:active {
 
 
 /*CONTENEDOR FOTO NUEVO EMPLEADO*/
-.cont-foto,.cont-datos-personales,.cont-datos-trabajo,.cont-archivos-personales{
+.cont-foto,.cont-datos-personales,.cont-datos-trabajo,.cont-archivos-personales,.cont-aviso-empleado{
   margin-top: 10%;
 }
-.cont-datos-personales,.cont-datos-trabajo,.cont-archivos-personales{
+.cont-datos-personales,.cont-datos-trabajo,.cont-archivos-personales,.cont-aviso-empleado{
   display: none;
 }
 .cont-foto .btn-foto:hover{
