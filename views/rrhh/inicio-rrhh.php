@@ -64,7 +64,7 @@ if($rol!=7){
     <div class="row">
         <div class="col-lg-6  animated fadeInUp slow mt-5 ">
             <img class="d-block m-auto" height="80" width="80" src="../../img/smile.png" alt="">
-            <h2 class="text-center saludo msr mt-3">¡Hola <span class="cl3"><?php echo $_SESSION['nombre']; ?> </span> , me alegra verte de nuevo!</h2>
+            <h2 class="text-center saludo msr mt-3">¡Hola <span class="cl3"><?php echo strtoupper($_SESSION['nombre']); ?> </span> , me alegra verte de nuevo!</h2>
         </div>
         <div class="col-lg-6 animated fadeInRight slow">
             <h2 class="text-center msr cl1"><img style="vertical-align: sub;" src="../../img/add-user.png" width="40" height="40" alt="Ultimos 5 miembros"> Últimos 5 miembros</h2>
@@ -113,8 +113,8 @@ if($rol!=7){
               <img style="width:170px;height:170px;" class="d-block m-auto img-thumbnail" src="../../img/user4.jpg" alt="">
             </div>
             <div class="col msr">
-              <h5 class="mt-4"><b>Nombre Completo:</b> <?php echo $emp['apellido'].' '.$emp['nombre'];  ?></h5>
-              <h5 class="mt-4"><b>Rol:</b> <?php echo $_SESSION['nombreRol']; ?></h5>
+              <h5 class="mt-4"><b>Nombre Completo:</b> <?php echo  strtoupper($emp['apellido'].' '.$emp['nombre']);  ?></h5>
+              <h5 class="mt-4"><b>Rol:</b> <?php echo strtoupper($_SESSION['nombreRol']); ?></h5>
               <h5 class="mt-4"><b>E-mail:</b> <?php echo $emp['email'];?></h5>
               <h5 class="mt-4 mb-5"><b>Celular:</b> <?php echo $emp['celular']; ?></h5>
               <button class="btn btn-lg d-block m-auto btn-op1"><i class="fas fa-chevron-right fa-lg"></i> Ver más</button>
