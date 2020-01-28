@@ -170,7 +170,7 @@ if($rol!=7){
             <div class="row">
                 <div class="col">
                     <img class="d-block m-auto" width="100" height="100" src="../../img/identification.png" alt="Identificacion">
-                    <label class="btn btn-lg btn-op1 mt-4" for="credencial">Credencial</label>
+                    <label class="btn btn-lg btn-op1 mt-4" for="credencial">Credencial de INE o IFE</label>
                     <input class="form-control d-none" type="file" id="credencial" required="">
                 </div>
                 <div class="col">
