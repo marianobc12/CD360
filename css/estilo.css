@@ -29,6 +29,20 @@ azul boton: ##004D80*/
   cursor: pointer;
 }
 
+.btn{
+  color:white;
+  font-size:20px;
+  width:100%; 
+  border:0px;
+  border:1px solid #0099ff;
+  color: #0099ff;
+  border-radius: 0px;
+}
+
+.btn-secondary{
+  background: white;
+}
+
 .cl1{
   color: #0099FF;
 }
@@ -239,3 +253,5 @@ a:active {
 .cont-seguridad{
   margin-top: 8%;
 }
+
+/* CONTENEDOR DE LA LISTA DE EMPLEADOS */
