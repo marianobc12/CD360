@@ -50,24 +50,15 @@ session_start();
   </div>
 </nav>
 
-<div class="container-fluid">
+
+<div class="container">
     <div class="row">
-        <div class="col-xl-6 offset-xl-3 col-lg-6 offset-lg-3 col-md-6 offset-md-3   cont-seguridad">
-            <img class="d-block m-auto" height="100" width="100" src="../img/seguridad.png" alt="">
-            <h1 class="text-center cl1">Seguridad</h1>
-            <h2 class="text-center cl3 msr">¿Deseas cambiar tu contraseña?</h2>
-            <form class="col-xl-6 offset-xl-3" action="">
-                <label class="mt-4" for="clave">Contraseña Nueva</label>
-                <input class="form-control" type="password" id="clave">
-                <label class="mt-4" for="claverepetida">Repita su contraseña</label>
-                <input class="form-control" type="password" id="claverepetida">
-                <button class="btn btn-lg btn-op1 mt-5">Cambiar mi contraseña</button>
-            </form>
+        <div class="col" style="margin-top:15%;">
+            <img class="d-block m-auto" src="../img/developer.png" height="150" width="150" alt="">
+            <h1 class="text-center cl1">Esta sección se encuentra en desarrollo</h1>
         </div>
     </div>
 </div>
-
-
 
 <script src="../js/jquery-3.4.1.min.js"></script>
 <script src="../js/bootstrap.min.js"></script>
