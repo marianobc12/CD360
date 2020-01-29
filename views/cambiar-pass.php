@@ -41,7 +41,7 @@ session_start();
           <p class="dropdown-item mb-0"><b>ROL:&nbsp</b><?php echo strtoupper($_SESSION['nombreRol']); ?></p>
           <div class="dropdown-divider"></div>
           <a class="dropdown-item" href="#"><i class="fas fa-id-card-alt fa-lg cl3"></i> Mis Datos</a>
-          <a class="dropdown-item" href="#"><i class="fas fa-unlock-alt fa-lg cl3"></i> Seguridad</a>
+          <a class="dropdown-item" href="cambiar-pass.php"><i class="fas fa-unlock-alt fa-lg cl3"></i> Seguridad</a>
           <a class="dropdown-item" href="cerrar-sesion.php"><i class="fas fa-arrow-right fa-lg cl3"></i> Cerrar Sesión</a>
         </div>
       </li>
