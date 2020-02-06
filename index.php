@@ -17,16 +17,16 @@
           <div style="text-align:center;">
              <img src="img/logof.png" class="logo img-fluid">
           </div>
-          <hr style="border-top: 1px solid #26e2d3; width:95%; border-radius:5px;">
+          <hr style="border-top: 1px solid #a9a4a0; width:95%; border-radius:5px;">
           <form class="col-sm-12" method="post" onsubmit="login();">
-            <span style="color:#0081ff; font-size:20px;">INICIAR SESIÓN</span>
+            <span style="color:#0099ff; font-size:20px;">INICIAR SESIÓN</span>
               <div class="row justify-content-sm-center" style="margin-top:10px;">
                 <div class="form-group col-sm-10 col-sm-offset-1">
-                  <label><span style="color:#0081ff; font-size:14px;">Usuario</span></label><br>
+                  <label><span style="color:#0099ff; font-size:14px;">Usuario</span></label><br>
                   <input class="form-control" type="text" required="" id="usuario" style="font-size:16px;" placeholder="Ingresar usuario...">
                   <span class="fas fa-user iconouser"></span>
                   <br>
-                  <label style="margin-top:10px;"><span style="color:#0081ff; font-size:14px;">Contraseña</span></label><br>
+                  <label style="margin-top:10px;"><span style="color:#0099ff; font-size:14px;">Contraseña</span></label><br>
                   <input class="form-control" type="password" required="" id="pass" style="font-size:16px;" placeholder="Ingresar contraseña...">
                   <span class="fas fa-lock iconopass"></span>
                   <br>

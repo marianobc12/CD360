@@ -40,8 +40,8 @@ if($rol!=7){
         <i class="fas fa-users fa-lg"></i> Personal
         </a>
         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="nuevo-usuario.php"><i class="fas fa-plus fa-lg cl3"></i> Nuevo personal</a>
-          <a class="dropdown-item" href="lista-personal.php"><i class="fas fa-list fa-lg cl3"></i> Lista de personal</a>
+          <a class="dropdown-item" href="nuevo-usuario.php"><i class="fas fa-plus fa-lg cl1"></i> Nuevo personal</a>
+          <a class="dropdown-item" href="lista-personal.php"><i class="fas fa-list fa-lg cl1"></i> Lista de personal</a>
         </div>
       </li>
       <li class="nav-item dropdown">
@@ -51,9 +51,9 @@ if($rol!=7){
         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
           <p class="dropdown-item mb-0"><b>ROL:&nbsp</b><?php echo strtoupper($_SESSION['nombreRol']); ?></p>
           <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="../ver-perfil.php"><i class="fas fa-id-card-alt fa-lg cl3"></i> Mis Datos</a>
-          <a class="dropdown-item" href="../cambiar-pass.php"><i class="fas fa-unlock-alt fa-lg cl3"></i> Seguridad</a>
-          <a class="dropdown-item" href="../cerrar-sesion.php"><i class="fas fa-arrow-right fa-lg cl3"></i> Cerrar Sesión</a>
+          <a class="dropdown-item" href="../ver-perfil.php"><i class="fas fa-id-card-alt fa-lg cl1"></i> Mis Datos</a>
+          <a class="dropdown-item" href="../cambiar-pass.php"><i class="fas fa-unlock-alt fa-lg cl1"></i> Seguridad</a>
+          <a class="dropdown-item" href="../cerrar-sesion.php"><i class="fas fa-arrow-right fa-lg cl1"></i> Cerrar Sesión</a>
         </div>
       </li>
       
@@ -101,7 +101,7 @@ if($rol!=7){
             </div>
             <div class="col-lg-3">
               <img class="img-fluid d-block m-auto" src="../../img/agregar.png" width="60" height="60" alt="">
-              <h4 class="text-center mt-4 msr">Tu agregastes</h4>
+              <h4 class="text-center mt-4 msr">Tú agregastes</h4>
               <h2 class="text-center msr"><?php echo $agregadosRrhh;  ?></h2>
             </div>
             </div>

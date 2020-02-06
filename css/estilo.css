@@ -8,6 +8,14 @@ azul letras: #4580CD
 celeste boton: #0099FF
 azul boton: ##004D80*/
 
+/* PALETA DE COLORES REFERIDA POR EL CLIENTE 
+
+  celeste:#0099FF
+  gris oscuro: #534f50
+  gris claro:#a9a4a0
+
+*/
+
 
 /*@font-face {
   font-family: montserrat;
@@ -24,7 +32,7 @@ azul boton: ##004D80*/
 }
 .btn-op1:hover{
   border: none;
-  background: #26e2d3;
+  background: #a9a4a0;
   color: white;
   cursor: pointer;
 }
@@ -47,7 +55,7 @@ azul boton: ##004D80*/
   color: #0099FF;
 }
 .cl3{
-  color: #26e2d3;
+  color: #a9a4a0;
 }
 .msr{
   font-family: 'Montserrat', sans-serif;
@@ -82,13 +90,13 @@ text-align:left;
 input[type=text] {
     border: none;
     border-radius: 0px;
-    border-bottom: 1px solid #26e2d3;
+    border-bottom: 1px solid #a9a4a0;
     width:100%;
     padding-left:30px;
   }
 input[type=password] {
     border: none;
-    border-bottom: 1px solid #26e2d3;
+    border-bottom: 1px solid #a9a4a0;
     border-radius: 0px;
     width:100%;
     padding-left:30px;
@@ -104,7 +112,7 @@ input[type=password] {
   }
   .submitt:hover{
     border: none;
-    background: #26e2d3;
+    background: #a9a4a0;
     color: white;
   }
 
@@ -202,6 +210,9 @@ a:active {
   background: #0099ff;
   color: white;
 }
+.navbar-collapse .navbar-nav .nav-item .dropdown-menu .dropdown-item:hover i{
+  color: white;
+}
 
 
 /* AVISO DE RESTRICCION */
@@ -212,7 +223,7 @@ a:active {
   box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.75);
 }
 .cont-aviso-login i{
-  color: #26e2d3;
+  color: #534f50;
 }
 .cont-aviso-login h4,.cont-aviso-login h5{
   color: #0099ff;
@@ -227,7 +238,7 @@ a:active {
 }
 .cont-aviso-login button:hover{
   border: none;
-  background: #26e2d3;
+  background: #534f50;
   color: white;
 }
 
