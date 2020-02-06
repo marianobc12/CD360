@@ -50,15 +50,62 @@ session_start();
   </div>
 </nav>
 
-
 <div class="container">
+  <h1 class="text-center cl1 mt-5"><i class="fas fa-id-card-alt fa-lg cl3"></i>  Mis Datos</h1>
+  <div class="row mt-4">
+    <img style="width:170px;height:170px;" class="d-block m-auto img-thumbnail" src="../img/user2.jpg" alt="">
+  </div>
+  <form class="col-lg-8 offset-lg-2" action="">
+    <div class="row mt-4">
+      <div class="col">
+        <label for="nombre">Nombre</label>
+        <input class="form-control" id="nombre" type="text">
+      </div>
+      <div class="col">
+        <label for="apellido">Apellido</label>
+        <input class="form-control" id="apellido" type="text">
+      </div>
+    </div>
+    <div class="row mt-4">
+      <div class="col">
+        <label for="fecNac">Fecha de nacimiento</label>
+        <input class="form-control" id="fecNac" type="text">
+      </div>
+      <div class="col">
+        <label for="direccion">Dirección</label>
+        <input class="form-control" id="direccion" type="text">
+      </div>
+    </div>
+    <div class="row mt-4">
+      <div class="col">
+        <label for="telefono">Teléfono</label>
+        <input class="form-control" id="telefono" type="text">
+      </div>
+      <div class="col">
+        <label for="celular">Celular</label>
+        <input class="form-control" id="celular" type="text">
+      </div>
+    </div>
+    <div class="row mt-4">
+      <div class="col">
+        <label for="email">E-mail</label>
+        <input class="form-control" id="email" type="text">
+      </div>
+      <div class="col">
+        <label for="telFam">Teléfono de familiar</label>
+        <input class="form-control" id="telFam" type="text">
+      </div>
+    </div>
+  </form>
+</div>
+<!--<div class="container">
     <div class="row">
         <div class="col" style="margin-top:15%;">
             <img class="d-block m-auto" src="../img/developer.png" height="150" width="150" alt="">
             <h1 class="text-center cl1">Esta sección se encuentra en desarrollo</h1>
         </div>
     </div>
-</div>
+</div>-->
 
 <script src="../js/jquery-3.4.1.min.js"></script>
 <script src="../js/bootstrap.min.js"></script>
