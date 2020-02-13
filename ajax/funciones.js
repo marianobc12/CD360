@@ -19,10 +19,10 @@ function login() {
                     location.href='./views/admin/inicio-adm.php';
                     break;
                 case 2:
-                    location.href='./views/inicio-cliente.php';
+                    location.href='./views/inicio-ejecutivo.php';
                     break;
                 case 3:
-                    location.href='./views/inicio-ejecutivo.php';
+                    location.href='./views/cliente/inicio-cliente.php';
                     break;
                 case 4:
                     location.href='./views/';
