@@ -3,7 +3,7 @@ session_start();
 
 $rol=$_SESSION['idRol'];
 
-echo $rol;
+//echo $rol;
 if($rol!=1){
   header('Location:../restriccion.php');
 }
@@ -31,31 +31,40 @@ if($rol!=1){
 
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav ml-auto">
-      <li class="nav-item active">
-        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Link</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link disabled" href="#">Disabled</a>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <i class="fas fa-users fa-lg"></i> RRHH
+        </a>
+        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="nuevo-usuario.php"><i class="fas fa-plus fa-lg cl1"></i> Nuevo RRHH</a>
+          <a class="dropdown-item" href="lista-personal.php"><i class="fas fa-list fa-lg cl1"></i> Lista de RRHH</a>
+        </div>
       </li>
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
         <i class="far fa-user-circle fa-lg"></i> Mi Perfíl
         </a>
         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">Action</a>
-          <a class="dropdown-item" href="#">Another action</a>
+          <p class="dropdown-item mb-0"><b>ROL:&nbsp</b><?php echo strtoupper($_SESSION['nombreRol']); ?></p>
           <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="#">Something else here</a>
+          <a class="dropdown-item" href="../ver-perfil.php"><i class="fas fa-id-card-alt fa-lg cl1"></i> Mis Datos</a>
+          <a class="dropdown-item" href="../cambiar-pass.php"><i class="fas fa-unlock-alt fa-lg cl1"></i> Seguridad</a>
+          <a class="dropdown-item" href="../cerrar-sesion.php"><i class="fas fa-arrow-right fa-lg cl1"></i> Cerrar Sesión</a>
         </div>
       </li>
       
     </ul>
   </div>
 </nav>
-    
+<div class="container">
+  <div class="row animated fadeInUp slow">
+    <div class="col text-center cont-saludo-admin">
+      <img  src="../../img/admin.png" height="100" width="100" alt="">
+      <h1 class="mt-2 cl1">Hola , administrador</h1>
+      <h4 class="mt-2 cl1">Tú puedes controlarlo todo</h4>
+    </div>
+  </div>
+</div>
 
 <script src="../../js/jquery-3.4.1.min.js"></script>
 <script src="../../js/bootstrap.min.js"></script>

@@ -62,11 +62,11 @@ if($rol!=7){
 </nav>
 <div class="container-fluid mt-5">
     <div class="row">
-        <div class="col-lg-6  animated fadeInUp slow mt-5 ">
+        <div class="col-lg-6 col-md-12  animated fadeInUp slow mt-5 ">
             <img class="d-block m-auto" height="80" width="80" src="../../img/smile.png" alt="">
             <h2 class="text-center saludo msr mt-3">¡Hola <span class="cl3"><?php echo strtoupper($_SESSION['nombre']); ?> </span> , me alegra verte de nuevo!</h2>
         </div>
-        <div class="col-lg-6 animated fadeInRight slow">
+        <div class="col-lg-6 col-md-12 animated fadeInRight slow">
             <h2 class="text-center msr cl1"><img style="vertical-align: sub;" src="../../img/add-user.png" width="40" height="40" alt="Ultimos 5 miembros"> Últimos 5 miembros</h2>
             <table class="table table-bordered mt-4">
             <thead>
@@ -91,7 +91,7 @@ if($rol!=7){
         </div>
     </div>
     <div class="row mt-5">
-        <div class="col-lg-6 animated fadeInUp slow">
+        <div class="col-lg-6 col-md-12 animated fadeInUp slow">
           <h2 class="text-center msr cl1"><img style="vertical-align: sub;" src="../../img/graphic.png" width="40" height="40" alt="Estadistica"> Estadistica</h2>
           <div class="row mt-5">
             <div class="col-lg-3 offset-lg-3">
@@ -106,11 +106,11 @@ if($rol!=7){
             </div>
             </div>
         </div>
-        <div class="col-xl-4 offset-xl-1 col-lg-6 animated fadeInRight slow">
+        <div class="col-xl-4 offset-xl-1 col-lg-6 col-md-12 animated fadeInRight slow">
           <h2 class="text-center msr cl1"><img style="vertical-align: sub;" src="../../img/identification.png" width="40" height="40" alt="Información"> Mi Info</h2>
           <div class="row">
-            <div class="col-lg-4 col-md-6 col-sm-6">
-              <img style="width:170px;height:170px;" class="d-block m-auto img-thumbnail" src="../../img/user4.jpg" alt="">
+            <div class="col-12">
+              <img style="height:170px;width:170px;" class="img-thumbnail" src="../../img/user4.jpg" alt="">
             </div>
             <div class="col msr">
               <h5 class="mt-4"><b>Nombre Completo:</b> <?php echo  strtoupper($emp['apellido'].' '.$emp['nombre']);  ?></h5>

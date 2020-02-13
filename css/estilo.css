@@ -263,6 +263,14 @@ a:active {
 /*  CONTENEDOR DE SEGURIDAD */
 .cont-seguridad{
   margin-top: 8%;
+  margin-bottom: 8%;
 }
 
-/* CONTENEDOR DE LA LISTA DE EMPLEADOS */
+
+
+
+
+/* ADMIN */
+.cont-saludo-admin{
+  margin-top: 15%;
+}
