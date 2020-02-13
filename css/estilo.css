@@ -1,6 +1,5 @@
 
 @import url('https://fonts.googleapis.com/css?family=Varela+Round&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
 @import url('animate.css');
 
 /*celeste desing #6DBDC6
@@ -57,9 +56,7 @@ azul boton: ##004D80*/
 .cl3{
   color: #a9a4a0;
 }
-.msr{
-  font-family: 'Montserrat', sans-serif;
-}
+
 
 
 /*CAMBIOS PARA EL BODY GENERAL*/

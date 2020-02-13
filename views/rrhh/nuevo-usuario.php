@@ -60,7 +60,7 @@ if($rol!=7){
     <div class="row">
         <div class="col-xl-12 cont-foto animated fadeIn slow">
             <h1 class="text-center cl1 mb-2"><img style="vertical-align: sub;"  height="50" src="../../img/pasos.png" alt="Primer paso"> Primer paso</h1>
-            <h2 class="text-center msr cl3 mb-5">Sube la foto del empleado</h2>
+            <h2 class="text-center  cl3 mb-5">Sube la foto del empleado</h2>
             <img style="width:170px;height:170px;" class="d-block m-auto img-thumbnail" id="fotoMuestra" src="../../img/sin-foto.png" alt="">
             <div class="mt-5 mb-4">
                 <label class="btn btn-lg d-block m-auto btn-op1 btn-foto" style="width:200px" for="foto">Agregar foto <i class="fas fa-plus fa-lg"></i></label>
@@ -70,7 +70,7 @@ if($rol!=7){
         </div>
         <div class="col-xl-8 offset-xl-2 cont-datos-personales animated fadeIn slow">
             <h1 class="text-center cl1 mb-2"><img style="vertical-align: sub;"  height="50" src="../../img/pasos.png" alt="Primer paso"> Segundo paso</h1>
-            <h2 class="text-center msr cl3 mb-5">Completa con los datos del empleado</h2>
+            <h2 class="text-center  cl3 mb-5">Completa con los datos del empleado</h2>
             <div class="row">
                 <div class="col">
                     <label for="nombre">Nombre</label>
@@ -122,7 +122,7 @@ if($rol!=7){
         </div>
         <div class="col-xl-8 offset-xl-2 cont-datos-trabajo animated fadeIn slow">
             <h1 class="text-center cl1 mb-2"><img style="vertical-align: sub;"  height="50" src="../../img/pasos.png" alt="Primer paso"> Tercer paso</h1>
-            <h2 class="text-center msr cl3 mb-5">Completa con los datos del trabajo</h2>
+            <h2 class="text-center  cl3 mb-5">Completa con los datos del trabajo</h2>
             <div class="row">
                 <div class="col">
                     <label for="rol">Rol</label>
@@ -166,7 +166,7 @@ if($rol!=7){
         </div>
         <div class="col-xl-8 offset-xl-2 cont-archivos-personales animated fadeIn slow">
             <h1 class="text-center cl1 mb-2"><img style="vertical-align: sub;"  height="50" src="../../img/pasos.png" alt="Primer paso"> ¡Genial! , estás en el ultimo paso.</h1>
-            <h2 class="text-center msr cl3 mb-5">Sube los archivos</h2>
+            <h2 class="text-center  cl3 mb-5">Sube los archivos</h2>
             <div class="row">
                 <div class="col">
                     <img class="d-block m-auto" width="100" height="100" src="../../img/identification.png" alt="Identificacion">
@@ -200,7 +200,7 @@ if($rol!=7){
                 <div class="col">
                     <img class="d-block m-auto" height="100" width="100" src="../../img/good.gif" alt="">
                     <h1 class="text-center cl1">¡ Genial !</h1>
-                    <h2 class="text-center cl3 msr mb-4">El empleado se agregó correctamente</h2>
+                    <h2 class="text-center cl3  mb-4">El empleado se agregó correctamente</h2>
                     <button class="btn btn-lg btn-op1 d-block m-auto" style="width:200px;" onclick="volverAgregarEmpleado()">Agregar otro</button>
                 </div>
             </div>

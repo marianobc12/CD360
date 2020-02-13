@@ -64,10 +64,10 @@ if($rol!=7){
     <div class="row">
         <div class="col-lg-6 col-md-12  animated fadeInUp slow mt-5 ">
             <img class="d-block m-auto" height="80" width="80" src="../../img/smile.png" alt="">
-            <h2 class="text-center saludo msr mt-3">¡Hola <span class="cl3"><?php echo strtoupper($_SESSION['nombre']); ?> </span> , me alegra verte de nuevo!</h2>
+            <h2 class="text-center saludo  mt-3">¡Hola <span class="cl3"><?php echo strtoupper($_SESSION['nombre']); ?> </span> , me alegra verte de nuevo!</h2>
         </div>
         <div class="col-lg-6 col-md-12 animated fadeInRight slow">
-            <h2 class="text-center msr cl1"><img style="vertical-align: sub;" src="../../img/add-user.png" width="40" height="40" alt="Ultimos 5 miembros"> Últimos 5 miembros</h2>
+            <h2 class="text-center  cl1"><img style="vertical-align: sub;" src="../../img/add-user.png" width="40" height="40" alt="Ultimos 5 miembros"> Últimos 5 miembros</h2>
             <table class="table table-bordered mt-4">
             <thead>
                 <tr>
@@ -92,27 +92,27 @@ if($rol!=7){
     </div>
     <div class="row mt-5">
         <div class="col-lg-6 col-md-12 animated fadeInUp slow">
-          <h2 class="text-center msr cl1"><img style="vertical-align: sub;" src="../../img/graphic.png" width="40" height="40" alt="Estadistica"> Estadistica</h2>
+          <h2 class="text-center  cl1"><img style="vertical-align: sub;" src="../../img/graphic.png" width="40" height="40" alt="Estadistica"> Estadistica</h2>
           <div class="row mt-5">
             <div class="col-lg-3 offset-lg-3">
               <img class="img-fluid d-block m-auto" src="../../img/usuario.png" width="60" height="60" alt="">
-              <h4 class="text-center mt-4 msr">Total de usuarios</h4>
-              <h2 class="text-center msr"><?php echo $totalUsuarios;  ?></h2>
+              <h4 class="text-center mt-4 ">Total de usuarios</h4>
+              <h2 class="text-center"><?php echo $totalUsuarios;  ?></h2>
             </div>
             <div class="col-lg-3">
               <img class="img-fluid d-block m-auto" src="../../img/agregar.png" width="60" height="60" alt="">
-              <h4 class="text-center mt-4 msr">Tú agregastes</h4>
-              <h2 class="text-center msr"><?php echo $agregadosRrhh;  ?></h2>
+              <h4 class="text-center mt-4 ">Tú agregastes</h4>
+              <h2 class="text-center"><?php echo $agregadosRrhh;  ?></h2>
             </div>
             </div>
         </div>
         <div class="col-xl-4 offset-xl-1 col-lg-6 col-md-12 animated fadeInRight slow">
-          <h2 class="text-center msr cl1"><img style="vertical-align: sub;" src="../../img/identification.png" width="40" height="40" alt="Información"> Mi Info</h2>
+          <h2 class="text-center  cl1"><img style="vertical-align: sub;" src="../../img/identification.png" width="40" height="40" alt="Información"> Mi Info</h2>
           <div class="row">
             <div class="col-12">
               <img style="height:170px;width:170px;" class="img-thumbnail" src="../../img/user4.jpg" alt="">
             </div>
-            <div class="col msr">
+            <div class="col ">
               <h5 class="mt-4"><b>Nombre Completo:</b> <?php echo  strtoupper($emp['apellido'].' '.$emp['nombre']);  ?></h5>
               <h5 class="mt-4"><b>Rol:</b> <?php echo strtoupper($_SESSION['nombreRol']); ?></h5>
               <h5 class="mt-4"><b>E-mail:</b> <?php echo $emp['email'];?></h5>
