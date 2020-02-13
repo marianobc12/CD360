@@ -43,6 +43,15 @@
     </ul>
   </div>
 </nav>
+<div class="container">
+  <div class="row">
+    <div class="col animated fadeInUp slow text-center cont-saludo-cliente">
+      <h1>Hola <?php echo $_SESSION['nombre'];  ?></h1>
+      <h4>Aquí tiene los detalles de tu último pedido</h4>
+      <img height="100" width="100" src="../../img/pedido.png" alt="">
+    </div>
+  </div>
+</div>
 <script src="../../js/jquery-3.4.1.min.js"></script>
 <script src="../../js/bootstrap.min.js"></script>
 </body>
