@@ -61,6 +61,12 @@ class user_model{
         $res=$this->db->query($sql);
         return $res;
     }
+
+    public function listarEmpleados(){
+        $sql="SELECT *,empleados.nombre as emp_nombre,roles.nombre as rol_nombre FROM users INNER JOIN empleados ON users.idEmpleado=empleados.idEmpleado INNER JOIN roles ON users.idRol=roles.idRoles WHERE idRol!=1";
+        $res=$this->db->query($sql);
+        return $res;
+    }
 }
 
 

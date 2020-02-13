@@ -1,5 +1,5 @@
 <?php
-session_start();
+require_once('../../controllers/user_controller.php');
 
 
 ?>
@@ -84,90 +84,16 @@ session_start();
           <th data-sortable="true">apellido</th>
         </thead>
         <tbody>
+          <?php
+            while($emp=$empleados->fetch_assoc()){
+          ?>
           <tr>
-            <td>mariano</td>
-            <td>flores</td>
+            <td><?php echo $emp['emp_nombre']; ?></td>
+            <td><?php echo $emp['apellido'];  ?></td>
           </tr>
-          <tr>
-            <td>mariano</td>
-            <td>flores</td>
-          </tr>
-          <tr>
-            <td>mariano</td>
-            <td>flores</td>
-          </tr><tr>
-            <td>mariano</td>
-            <td>flores</td>
-          </tr><tr>
-            <td>mariano</td>
-            <td>flores</td>
-          </tr><tr>
-            <td>mariano</td>
-            <td>flores</td>
-          </tr><tr>
-            <td>mariano</td>
-            <td>flores</td>
-          </tr><tr>
-            <td>mariano</td>
-            <td>flores</td>
-          </tr><tr>
-            <td>mariano</td>
-            <td>flores</td>
-          </tr><tr>
-            <td>mariano</td>
-            <td>flores</td>
-          </tr><tr>
-            <td>mariano</td>
-            <td>flores</td>
-          </tr><tr>
-            <td>mariano</td>
-            <td>flores</td>
-          </tr><tr>
-            <td>mariano</td>
-            <td>flores</td>
-          </tr><tr>
-            <td>mariano</td>
-            <td>flores</td>
-          </tr><tr>
-            <td>mariano</td>
-            <td>flores</td>
-          </tr><tr>
-            <td>mariano</td>
-            <td>flores</td>
-          </tr><tr>
-            <td>mariano</td>
-            <td>flores</td>
-          </tr><tr>
-            <td>mariano</td>
-            <td>flores</td>
-          </tr><tr>
-            <td>mariano</td>
-            <td>flores</td>
-          </tr><tr>
-            <td>mariano</td>
-            <td>flores</td>
-          </tr><tr>
-            <td>mariano</td>
-            <td>flores</td>
-          </tr><tr>
-            <td>mariano</td>
-            <td>flores</td>
-          </tr><tr>
-            <td>mariano</td>
-            <td>flores</td>
-          </tr><tr>
-            <td>mariano</td>
-            <td>flores</td>
-          </tr><tr>
-            <td>mariano</td>
-            <td>flores</td>
-          </tr><tr>
-            <td>mariano</td>
-            <td>flores</td>
-          </tr><tr>
-            <td>mariano</td>
-            <td>flores</td>
-          </tr>
+          <?php
+            }
+          ?>
         </tbody>
       </table>
     </div>

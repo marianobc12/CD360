@@ -248,6 +248,7 @@ a:active {
 /*CONTENEDOR FOTO NUEVO EMPLEADO*/
 .cont-foto,.cont-datos-personales,.cont-datos-trabajo,.cont-archivos-personales,.cont-aviso-empleado{
   margin-top: 10%;
+  margin-bottom: 10%;
 }
 .cont-datos-personales,.cont-datos-trabajo,.cont-archivos-personales,.cont-aviso-empleado{
   display: none;
